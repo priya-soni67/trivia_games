@@ -1,0 +1,86 @@
+.triviagame_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15%;
+      }
+  
+  .trivia_question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .options_list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .option_item {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .optionitem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .explanation_container {
+    margin-top: 20px;
+  }
+  
+  .correct_answer {
+    color: green;
+  }
+  
+  .explanation {
+    margin-top: 5px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .useranswer_container {
+    margin-top: 20px;
+  }
+  
+  .user-answer {
+    margin-bottom: 5px;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }
+  
+  .next_button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next_button:hover {
+    background-color: #0056b3;
+  }
+  
+  .redirecting_message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+  }
+  
